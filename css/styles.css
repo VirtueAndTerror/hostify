@@ -106,6 +106,39 @@ a {
 	}
 }
 
+/*  Lists */
+.list {
+	list-style: none;
+	/* Gets rid of the left paddings */
+	padding-left: 0;
+	color: var(--c-headings);
+}
+
+.list--inline .list__item {
+	display: block;
+	margin-right: 2rem;
+}
+
+.list--tick .list__item {
+	padding-left: 0.5;
+	margin-bottom: 1rem;
+}
+
+.list--tick .list__item::before {
+	content: '\02713';
+	color: green;
+	padding-left: 3rem;
+	margin-right: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+	.list--thick .list__item {
+		padding-left: 0;
+	}
+}
+
+/* Icons */
+
 @media screen and (min-width: 1024px) {
 	body {
 		font-size: 1.8rem;
