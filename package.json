@@ -1,0 +1,12 @@
+{
+  "name": "hostify",
+  "version": "1.0.0",
+  "description": "Web hosting landing page demo build using Object Oriented CSS",
+  "private": true,
+  "keywords": [],
+  "author": "Arnaldo Díaz",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.2.1"
+  }
+}
